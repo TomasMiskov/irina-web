@@ -1,6 +1,6 @@
 title: Irina-Maria Ionita
 url: "https://irmaio.github.io"
-baseurl: ""
+baseurl: "web"
 
 markdown: kramdown
 #ins_logo: "./bits-logo.png"
