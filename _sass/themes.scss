@@ -1,0 +1,120 @@
+/*
+ * Seasonal themes — each maps to CSS custom properties.
+ * Default values live on :root (winter) and are overridden per [data-theme].
+ */
+
+:root {
+    --accent: #16a34a;
+    --text: #1f2937;
+    --muted: #6b7280;
+    --bg: #fafdf7;
+    --font-body: "Avenir Next", Avenir, "Segoe UI", system-ui, sans-serif;
+}
+
+[data-theme="winter"] {
+    --accent: #2563eb;
+    --text: #1a1a2e;
+    --muted: #64748b;
+    --bg: #f8fafc;
+}
+
+[data-theme="spring"] {
+    --accent: #16a34a;
+    --text: #1f2937;
+    --muted: #6b7280;
+    --bg: #fafdf7;
+}
+
+[data-theme="summer"] {
+    --accent: #ea580c;
+    --text: #1f2937;
+    --muted: #78716c;
+    --bg: #fffdf7;
+}
+
+[data-theme="autumn"] {
+    --accent: #b45309;
+    --text: #1c1917;
+    --muted: #78716c;
+    --bg: #fdfaf6;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Theme picker — last item in the navbar, rolls out on hover/tap */
+
+.theme-picker-li {
+    position: relative;
+}
+.theme-picker {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 4px;
+}
+.theme-picker__current,
+.theme-picker__menu button {
+    background: none;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1;
+    cursor: pointer;
+    transition: opacity 0.2s ease, border-color 0.2s ease, background 0.2s ease, transform 0.2s ease;
+}
+.theme-picker__current {
+    border-color: var(--accent);
+    vertical-align: middle;
+}
+.theme-picker__menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-top: 8px;
+    display: flex;
+    gap: 4px;
+    padding: 6px;
+    background: var(--bg);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 999px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    opacity: 0;
+    transform: translateY(-6px);
+    pointer-events: none;
+    transition: opacity 0.18s ease, transform 0.18s ease;
+    z-index: 10;
+    white-space: nowrap;
+}
+.theme-picker__menu::before {
+    content: "";
+    position: absolute;
+    top: -8px;
+    left: 0;
+    right: 0;
+    height: 8px;
+}
+.theme-picker__menu button {
+    opacity: 0.55;
+}
+.theme-picker__menu button:hover {
+    opacity: 1;
+}
+.theme-picker__menu button[aria-checked="true"] {
+    opacity: 1;
+    border-color: var(--accent);
+    background: rgba(0, 0, 0, 0.04);
+}
+
+.theme-picker:hover .theme-picker__menu,
+.theme-picker:focus-within .theme-picker__menu {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}

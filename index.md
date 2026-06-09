@@ -4,42 +4,92 @@ layout: default
 
 ## About Me
 
-<img class="profile-picture" src="sherlock.jpg">
+<img class="profile-picture" src="assets/images/irina-eu-flag.png">
 
-Hi! I am a junior year student of B.E. Computer Science at Birla Institute of Technology and Science, Pilani.
+Hi, I'm Irina! I'm a researcher and (almost) lawyer working at the intersection of human rights, EU policy, and anti-trafficking work. Currently based in Brussels, where I'm doing a Bluebook Traineeship at the **European Commission** after spending the last year as a Researcher at **La Strada International**.
 
-This is a jekyll based resume template. You can find the full source code on [GitHub](https://github.com/bk2dcradle/researcher)
+My academic path has been a bit of a winding one — I studied European Studies (with a heavy dose of EU law), then a Master's in Public International Law focused on migration, and somewhere along the way I also picked up a Bachelor's in Psychology because understanding *why* people do what they do felt just as important as understanding the rules they're supposed to follow. All three at the **University of Amsterdam**.
 
-## Research Interest
+I care a lot about evidence-based policy, doing research that actually reaches the people it's meant to help, and the small but stubborn details that make EU institutions tick.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum ac erat aliquam dapibus. Vestibulum vehicula placerat ex, a consectetur odio pharetra quis. Mauris id urna ante. Fusce pharetra diam ac nisi aliquet, vel egestas ex iaculis. Pellentesque laoreet cursus tellus sed pellentesque. Praesent a rhoncus elit. Nunc ipsum nisl, consequat sit amet pretium quis, gravida id ipsum.
+## Experience
 
-## Publications
+{% include experience.html
+   role="Bluebook Trainee"
+   org="European Commission (DG JUST)"
+   org_url="https://commission.europa.eu/about/departments-and-executive-agencies/justice-and-consumers_en"
+   logo="assets/images/dg_just_logo.jpeg"
+   dates="Mar 2026 – present"
+   location="Brussels, on-site"
+   description="Working on-site in Brussels as part of the Commission's traineeship programme."
+%}
 
-1. F.Bar, J.Doe: Effects of having a placeholder of a name
-2. S.Holmes, J.Watson: Consequences of living with a sociopath in London
+{% include experience.html
+   role="Researcher"
+   org="La Strada International"
+   org_url="https://www.lastradainternational.org/"
+   logo="assets/images/LSI_logo_op_oranjeBG.png"
+   dates="Jul 2025 – Mar 2026"
+   location="Brussels, remote"
+   description="Supported multi-partner initiatives focused on combatting human trafficking, with a particular emphasis on data collection, project coordination, and stakeholder engagement."
+%}
 
-## Typography
+{% include experience.html
+   role="Intern"
+   org="La Strada International"
+   org_url="https://www.lastradainternational.org/"
+   logo="assets/images/LSI_logo_op_oranjeBG.png"
+   dates="Apr 2024 – Feb 2025"
+   location="Amsterdam, hybrid"
+   description="Contributed to research and advocacy efforts in the anti-trafficking field — quantitative and qualitative research, drafting policy briefs, and supporting the wider advocacy work of the secretariat."
+%}
 
-This is a [link](http://google.com). Something *italics* and something **bold**.
+## Education
 
-Here is a table
+{% include education.html
+   degree="Bachelor of Science, Psychology"
+   school="University of Amsterdam"
+   school_url="https://www.uva.nl/"
+   logo="assets/images/uva_logo.png"
+   dates="Sep 2021 – Jan 2025"
+   description="Specialisation in Social Psychology."
+%}
 
-Year | Award | Category
------|-------|--------
-2014 | Emmy  | Won Outstanding Lead Actor in a miniseries or a movie
-2015 | BAFTA | Nominated for Best Leading Actor for Sherlock
-2014 | Satellite | Won Best Actor miniseries or television film
+{% include education.html
+   degree="Master of Laws (LLM), Public International Law"
+   school="University of Amsterdam"
+   school_url="https://www.uva.nl/"
+   logo="assets/images/uva_logo.png"
+   dates="Sep 2022 – Jul 2023"
+   description="Focus on EU Migration Law."
+%}
 
-Here is a horizontal rule
+{% include education.html
+   degree="Bachelor's degree, European Studies"
+   school="University of Amsterdam"
+   school_url="https://www.uva.nl/"
+   logo="assets/images/uva_logo.png"
+   dates="2019 – 2022"
+   description="Major: European Union Law. Minor: Eastern European Studies."
+%}
 
----
+## Selected Writing
 
-Here is a blockquote
+A couple of the longer reports I've worked on:
 
-> To a great mind, nothing is little
+* [2024 Trafficking in Human Beings Assistance Statistics and Trends](assets/documents/lsi-data-report-2024.pdf)
+* [Assisting Displaced Persons from Ukraine: Indications of Human Trafficking and Labour Exploitation](assets/documents/lsi-ukraine-case-assessment.pdf)
 
-## References
+## Languages
 
-* Foo Bar: Head of Department, Placeholder Names, Lorem
-* John Doe: Associate Professor, Department of Computer Science, Ipsum
+| Language | Level |
+|----------|-------|
+| 🇷🇴 Romanian | Native |
+| 🇬🇧 English  | Advanced |
+| 🇮🇹 Italian  | Intermediate |
+| 🇨🇳 Mandarin | Intermediate |
+| 🇫🇷 French   | Basic |
+
+## Get in touch
+
+The easiest way to reach me is via the [contact page](contact). Always happy to chat about anti-trafficking research, EU policy, migration law in one of the five languages above (results may vary for Italian, Mandarin, and French).
