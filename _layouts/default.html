@@ -37,7 +37,7 @@
         {% assign url = site.url | append: site.baseurl | append: page.url %}
     {% endif %}
     <meta name="description" content="{{ desc }}">
-    <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+    <link id="favicon" rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Ctext%20y%3D%2254%22%20font-size%3D%2256%22%3E%F0%9F%8C%B1%3C%2Ftext%3E%3C%2Fsvg%3E">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS" href="/feed.xml" />
     <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
     {% if site.favicon %}
@@ -126,9 +126,18 @@
                : 'autumn';
         }
 
+        function setFavicon(emoji) {
+          var link = document.getElementById('favicon');
+          if (!link) return;
+          var svg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><text y="54" font-size="56">' + emoji + '</text></svg>';
+          link.href = 'data:image/svg+xml;utf8,' + encodeURIComponent(svg);
+        }
+
         function sync() {
           var theme = root.getAttribute('data-theme') || 'spring';
-          current.textContent = EMOJI[theme] || EMOJI.spring;
+          var emoji = EMOJI[theme] || EMOJI.spring;
+          current.textContent = emoji;
+          setFavicon(emoji);
           items.forEach(function (b) {
             b.setAttribute('aria-checked', b.dataset.season === theme ? 'true' : 'false');
           });
