@@ -1,4 +1,5 @@
 @import "vars";
+@import "themes";
 
 /*
  * Basic
@@ -11,12 +12,12 @@ html {
 }
 body {
     margin: 0;
-    font-family: Georgia, serif;
+    font-family: var(--font-body);
     height: 100%;
 }
 a {
     text-decoration: none;
-    color: $accent;
+    color: var(--accent);
 }
 a:hover {
     text-decoration: underline;

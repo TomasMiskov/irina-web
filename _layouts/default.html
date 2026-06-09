@@ -5,6 +5,22 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+      // Set theme before paint so colors/fonts don't flash. Saved override wins; otherwise pick by current month.
+      (function () {
+        try {
+          var saved = localStorage.getItem('season');
+          var m = new Date().getMonth();
+          var byMonth = (m === 11 || m <= 1) ? 'winter'
+                      : (m <= 4) ? 'spring'
+                      : (m <= 7) ? 'summer'
+                      : 'autumn';
+          document.documentElement.setAttribute('data-theme', saved || byMonth);
+        } catch (e) {
+          document.documentElement.setAttribute('data-theme', 'winter');
+        }
+      })();
+    </script>
     <meta name="keywords" content="blog, accent, {{ site.author }}, {{ site.title }}, jekyll">
     <meta name="author" content="{{ site.author }}">
     {% if page.url == "/404.html" %}
@@ -72,6 +88,7 @@
                     {% endif %}
                         </li>
                 {% endfor %}
+                <li class="alignable pull-left nav-list theme-picker-li">/ {% include theme-toggle.html %}</li>
             </ul>
         </div>
         <div style="clear:both"></div>
@@ -90,6 +107,37 @@
                 {% endif %}
             </div>
     </div>
+    <script>
+      // Theme picker: hover (desktop) and focus-within (mobile tap) handled in CSS.
+      // JS just updates the current emoji and persists the choice.
+      (function () {
+        var root = document.documentElement;
+        var picker = document.querySelector('.theme-picker');
+        if (!picker) return;
+        var current = picker.querySelector('.theme-picker__current');
+        var items = picker.querySelectorAll('.theme-picker__menu button');
+        var EMOJI = { winter: '❄️', spring: '🌱', summer: '☀️', autumn: '🍂' };
+
+        function sync() {
+          var theme = root.getAttribute('data-theme') || 'spring';
+          current.textContent = EMOJI[theme] || EMOJI.spring;
+          items.forEach(function (b) {
+            b.setAttribute('aria-checked', b.dataset.season === theme ? 'true' : 'false');
+          });
+        }
+
+        items.forEach(function (b) {
+          b.addEventListener('click', function () {
+            root.setAttribute('data-theme', b.dataset.season);
+            try { localStorage.setItem('season', b.dataset.season); } catch (err) {}
+            sync();
+            b.blur(); // close the menu on mobile (drops :focus-within)
+          });
+        });
+
+        sync();
+      })();
+    </script>
     {% if site.tracking_id %}
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
