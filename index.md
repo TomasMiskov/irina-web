@@ -6,7 +6,7 @@ layout: default
 
 <img class="profile-picture" src="assets/images/irina-eu-flag.png">
 
-Hi, I'm Irina! I'm a researcher and (almost) lawyer working at the intersection of human rights, EU policy, and anti-trafficking work. Currently based in Brussels, where I'm doing a Bluebook Traineeship at the **European Commission** after spending the last year as a Researcher at **La Strada International**.
+Hi, I'm Irina! I'm a researcher and (almost) lawyer working at the intersection of human rights, EU policy, and anti-trafficking work. Currently based in Brussels, I'm doing a Bluebook Traineeship at the **European Commission** after spending the last year as a Researcher at **La Strada International**.
 
 My academic path has been a bit of a winding one — I studied European Studies (with a heavy dose of EU law), then a Master's in Public International Law focused on migration, and somewhere along the way I also picked up a Bachelor's in Psychology because understanding *why* people do what they do felt just as important as understanding the rules they're supposed to follow. All three at the **University of Amsterdam**.
 
@@ -21,7 +21,7 @@ I care a lot about evidence-based policy, doing research that actually reaches t
    logo="assets/images/dg_just_logo.jpeg"
    dates="Mar 2026 – present"
    location="Brussels, on-site"
-   description="Working on-site in Brussels as part of the Commission's traineeship programme."
+   description="Working on-site in Brussels as part of the Planning, Better Regulation and Enforcement Unit of DG JUST."
 %}
 
 {% include experience.html
@@ -35,7 +35,7 @@ I care a lot about evidence-based policy, doing research that actually reaches t
 %}
 
 {% include experience.html
-   role="Intern"
+   role="Research Intern"
    org="La Strada International"
    org_url="https://www.lastradainternational.org/"
    logo="assets/images/LSI_logo_op_oranjeBG.png"
