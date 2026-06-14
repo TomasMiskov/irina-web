@@ -79,6 +79,9 @@ A couple of the longer reports I've worked on:
 
 * [2024 Trafficking in Human Beings Assistance Statistics and Trends](assets/documents/lsi-data-report-2024.pdf)
 * [Assisting Displaced Persons from Ukraine: Indications of Human Trafficking and Labour Exploitation](assets/documents/lsi-ukraine-case-assessment.pdf)
+* [2023 Trafficking in Human Beings Assistance Statistics and Trends](assets/documents/3579-2023 - Statistics and Trends La Strada International.pdf)
+* [Non-punishment Report](assets/documents/3636-LSI_Non Punishment Report2025.pdf)
+* 
 
 ## Languages
 
