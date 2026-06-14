@@ -95,10 +95,21 @@ A couple of the longer reports I've worked on:
 
 
 ## Volunteering
-* [De Regenboog Groep](https://www.deregenboog.org/en)
-* [Fundația Principesa Margareta a României](https://www.frmr.ro/)
 
-  
+{% include education.html
+   degree="Social support volunteer"
+   school="De Regenboog Groep"
+   school_url="https://www.deregenboog.org/en"
+   logo="assets/images/RBG.jpeg"
+%}
+
+{% include education.html
+   degree="Helping kids with homework"
+   school="Fundația Principesa Margareta a României"
+   school_url="https://www.frmr.ro/"
+   logo="assets/images/FPM.jpeg"
+%}
+
 ## Hobbies
 Travelling, Reading, Crocheting
  
