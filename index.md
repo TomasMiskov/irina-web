@@ -6,7 +6,7 @@ layout: default
 
 <img class="profile-picture" src="assets/images/irina-eu-flag.png">
 
-Hi, I'm Irina! I'm a researcher and (almost) lawyer working at the intersection of human rights, EU policy, and anti-trafficking work. Currently based in Brussels, I'm doing a Bluebook Traineeship at the **European Commission**. Previously, I spent 2 years at **La Strada International** as a researcher.
+Hi, I'm Irina! I'm a researcher working at the intersection of human rights, EU policy, and anti-trafficking work. Currently based in Brussels, I'm doing a Bluebook Traineeship at the **European Commission**. Previously, I spent 2 years at **La Strada International** as a researcher.
 
 I have an interdisciplinary academic background: starting with European Studies (with a heavy dose of EU law), and continuing with a Master's in Public International Law. Somewhere along the way I also picked up a Bachelor's in Psychology because understanding *why* people do what they do felt just as important as understanding the rules they're supposed to follow. All three at the **University of Amsterdam**.
 
