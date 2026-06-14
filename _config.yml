@@ -1,5 +1,7 @@
 title: Irina-Maria Ionita
 url: "https://irinaionita.eu"
+description: "Hello I'm Irina - a researcher working at the intersection of human rights, EU policy, and anti-trafficking work."
+og_image: "https://irinaionita.eu/assets/images/irina-eu-flag.png"
 baseurl: ""
 
 markdown: kramdown
