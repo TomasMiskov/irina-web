@@ -61,8 +61,8 @@ I have a curious mind, always looking to learn, build on the knowledge that I ha
    school_url="https://www.uva.nl/"
    logo="assets/images/uva_logo.png"
    dates="Sep 2022 – Jul 2023"
-   description="Focus on EU Migration Law and Humanitarian Law."
-   Thesis: *On Regulating Lethal Autonomous Weapons: Towards a Pan-European Approach?*
+   description="Focus on EU Migration Law and Humanitarian Law. /n Thesis: *On Regulating Lethal Autonomous Weapons: Towards a Pan-European Approach?*"
+   
 %}
 
 {% include education.html
@@ -71,8 +71,7 @@ I have a curious mind, always looking to learn, build on the knowledge that I ha
    school_url="https://www.uva.nl/"
    logo="assets/images/uva_logo.png"
    dates="2019 – 2022"
-   description="Major: European Union Law. Minor: Eastern European Studies."
-   Thesis: *A Discourse Analysis on the Activation of the Temporary Protection Directive*
+   description="Major: European Union Law. Minor: Eastern European Studies. /n Thesis: *A Discourse Analysis on the Activation of the Temporary Protection Directive*"
 %}
 
 ## Selected Writing
@@ -82,7 +81,7 @@ A couple of the longer reports I've worked on:
 * [2024 Trafficking in Human Beings Assistance Statistics and Trends](assets/documents/lsi-data-report-2024.pdf)
 * [Assisting Displaced Persons from Ukraine: Indications of Human Trafficking and Labour Exploitation](assets/documents/lsi-ukraine-case-assessment.pdf)
 * [2023 Trafficking in Human Beings Assistance Statistics and Trends](assets/documents/3579-2023 - Statistics and Trends La Strada International.pdf)
-* [Non-punishment Report](assets/documents/3636-LSI_Non Punishment Report2025.pdf)
+* [Assessment of the Principle of Non-Punishment: Collection of Case Law](assets/documents/3636-LSI_Non Punishment Report2025.pdf)
 
 ## Languages
 
@@ -92,7 +91,10 @@ A couple of the longer reports I've worked on:
 | 🇬🇧 English  | Advanced |
 | 🇮🇹 Italian  | Intermediate |
 | 🇨🇳 Mandarin | Intermediate |
-| 🇫🇷 French   | Basic |
+| 🇫🇷 French   | Intermediate |
+
+## Hobbies
+Travelling, Reading, Crocheting
 
 ## Get in touch
 
