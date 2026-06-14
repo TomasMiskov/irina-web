@@ -94,8 +94,7 @@ A couple of the longer reports I've worked on:
 | 🇫🇷 French   | Intermediate |
 
 ## Hobbies
-Travelling, Reading, Crocheting
-Most interesting city I've lived in? Beijing
+Travelling, Reading, Crocheting <b> Most interesting city I've lived in? Beijing, China
 
 ## Get in touch
 
