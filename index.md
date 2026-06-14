@@ -6,11 +6,11 @@ layout: default
 
 <img class="profile-picture" src="assets/images/irina-eu-flag.png">
 
-Hi, I'm Irina! I'm a researcher and (almost) lawyer working at the intersection of human rights, EU policy, and anti-trafficking work. Currently based in Brussels, I'm doing a Bluebook Traineeship at the **European Commission** after spending the last year as a Researcher at **La Strada International**.
+Hi, I'm Irina! I'm a researcher and (almost) lawyer working at the intersection of human rights, EU policy, and anti-trafficking work. Currently based in Brussels, I'm doing a Bluebook Traineeship at the **European Commission**. Previously, I spent 2 years at **La Strada International** as a researcher.
 
-My academic path has been a bit of a winding one — I studied European Studies (with a heavy dose of EU law), then a Master's in Public International Law focused on migration, and somewhere along the way I also picked up a Bachelor's in Psychology because understanding *why* people do what they do felt just as important as understanding the rules they're supposed to follow. All three at the **University of Amsterdam**.
+I have an interdisciplinary academic background: starting with European Studies (with a heavy dose of EU law), and continuing with a Master's in Public International Law. Somewhere along the way I also picked up a Bachelor's in Psychology because understanding *why* people do what they do felt just as important as understanding the rules they're supposed to follow. All three at the **University of Amsterdam**.
 
-I care a lot about evidence-based policy, doing research that actually reaches the people it's meant to help, and the small but stubborn details that make EU institutions tick.
+I have a curious mind, always looking to learn, build on the knowledge that I have and bring together different disciplines. I’m always happy to connect with people and don’t shy away from a challenge. I care a lot about evidence-based policy and doing research that actually reaches the people it's meant to help.
 
 ## Experience
 
@@ -53,6 +53,7 @@ I care a lot about evidence-based policy, doing research that actually reaches t
    logo="assets/images/uva_logo.png"
    dates="Sep 2021 – Jan 2025"
    description="Specialisation in Social Psychology."
+   Thesis: *The Moderating Role of the Stereotype Content Model in Prejudice Confrontation*
 %}
 
 {% include education.html
@@ -61,7 +62,8 @@ I care a lot about evidence-based policy, doing research that actually reaches t
    school_url="https://www.uva.nl/"
    logo="assets/images/uva_logo.png"
    dates="Sep 2022 – Jul 2023"
-   description="Focus on EU Migration Law."
+   description="Focus on EU Migration Law and Humanitarian Law."
+   Thesis: *On Regulating Lethal Autonomous Weapons: Towards a Pan-European Approach?*
 %}
 
 {% include education.html
@@ -71,6 +73,7 @@ I care a lot about evidence-based policy, doing research that actually reaches t
    logo="assets/images/uva_logo.png"
    dates="2019 – 2022"
    description="Major: European Union Law. Minor: Eastern European Studies."
+   Thesis: *A Discourse Analysis on the Activation of the Temporary Protection Directive*
 %}
 
 ## Selected Writing
