@@ -52,8 +52,7 @@ I have a curious mind, always looking to learn, build on the knowledge that I ha
    school_url="https://www.uva.nl/"
    logo="assets/images/uva_logo.png"
    dates="Sep 2021 – Jan 2025"
-   description="Specialisation in Social Psychology."
-   Thesis: *The Moderating Role of the Stereotype Content Model in Prejudice Confrontation*
+   description="Specialisation in Social Psychology. /n Thesis: *The Moderating Role of the Stereotype Content Model in Prejudice Confrontation*"
 %}
 
 {% include education.html
