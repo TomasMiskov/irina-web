@@ -96,6 +96,7 @@ A couple of the longer reports I've worked on:
 ## Hobbies
 Travelling, Reading, Crocheting
  
+ 
 Most interesting city I've lived in? Beijing, China
 
 ## Get in touch
