@@ -12,7 +12,7 @@ is_contact: true
 * **Email:** [irina.ma.ionita@gmail.com](mailto:irina.ma.ionita@gmail.com)
     * *I check it in the mornings, usually reply within a day or two.*
 * **LinkedIn:** <a href="https://www.linkedin.com/in/irina-m-ionita/" target="_blank" rel="noopener noreferrer">linkedin.com/in/irina-m-ionita/</a>
-    * *Bit slower with replies, but happy to connect!*
+    * *Always happy to connect!*
 
 ### Good reasons to write
 
