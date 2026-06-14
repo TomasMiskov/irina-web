@@ -52,7 +52,7 @@ I have a curious mind, always looking to learn, build on the knowledge that I ha
    school_url="https://www.uva.nl/"
    logo="assets/images/uva_logo.png"
    dates="Sep 2021 – Jan 2025"
-   description="Specialisation in Social Psychology. /n Thesis: *The Moderating Role of the Stereotype Content Model in Prejudice Confrontation*"
+   description="Specialisation in Social Psychology. <br> Thesis: *The Moderating Role of the Stereotype Content Model in Prejudice Confrontation*"
 %}
 
 {% include education.html
@@ -61,7 +61,7 @@ I have a curious mind, always looking to learn, build on the knowledge that I ha
    school_url="https://www.uva.nl/"
    logo="assets/images/uva_logo.png"
    dates="Sep 2022 – Jul 2023"
-   description="Focus on EU Migration Law and Humanitarian Law. /n Thesis: *On Regulating Lethal Autonomous Weapons: Towards a Pan-European Approach?*"
+   description="Focus on EU Migration Law and Humanitarian Law. <br> Thesis: *On Regulating Lethal Autonomous Weapons: Towards a Pan-European Approach?*"
    
 %}
 
@@ -71,7 +71,7 @@ I have a curious mind, always looking to learn, build on the knowledge that I ha
    school_url="https://www.uva.nl/"
    logo="assets/images/uva_logo.png"
    dates="2019 – 2022"
-   description="Major: European Union Law. Minor: Eastern European Studies. /n Thesis: *A Discourse Analysis on the Activation of the Temporary Protection Directive*"
+   description="Major: European Union Law. Minor: Eastern European Studies. <br> Thesis: *A Discourse Analysis on the Activation of the Temporary Protection Directive*"
 %}
 
 ## Selected Writing
