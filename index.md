@@ -93,6 +93,12 @@ A couple of the longer reports I've worked on:
 | 🇨🇳 Mandarin | Intermediate |
 | 🇫🇷 French   | Intermediate |
 
+
+## Volunteering
+* [De Regenboog Groep](https://www.deregenboog.org/en)
+* [Fundația Principesa Margareta a României](https://www.frmr.ro/)
+
+  
 ## Hobbies
 Travelling, Reading, Crocheting
  
